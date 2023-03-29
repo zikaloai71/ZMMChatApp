@@ -1,6 +1,5 @@
 const express = require("express")
 const router = express.Router()
-const bcrypt = require("bcrypt")
 const userModel = require("../models/userModel")
 const tokenModel = require("../models/tokenModel")
 const registerValidator = require("../middlewares/createUserValidatorMW")
